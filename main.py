@@ -25,3 +25,15 @@ if __name__ == "__main__":
     squares = square_gen.generate_list_of_squares(start, end)
     print("List Of Squares From {} To {}: {}".format(start, end, squares))
 
+#Task4
+import math
+
+class SquareGenerator:
+    def generate_list_of_squares(self, start, end):
+        squares = [num ** 2 for num in range(start, end + 1)]
+        square_roots = [math.sqrt(num) for num in squares]
+        return square_roots
+    print("List Of Squares From {} To {}: {}".format(start, end, squares))
+
+
+
