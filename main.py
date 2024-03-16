@@ -57,3 +57,6 @@ from square_generator.square_generator import SquareGenerator
 
 #Task7
 from square_generator.square_generator import SquareGenerator
+
+#Task8
+from square_generator.square_generator import CubicGenerator
