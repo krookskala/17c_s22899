@@ -26,7 +26,6 @@ if __name__ == "__main__":
     print("List Of Squares From {} To {}: {}".format(start, end, squares))
 
 #Task4
-import math
 
 class SquareGenerator:
     def generate_list_of_squares(self, start, end):
@@ -54,4 +53,7 @@ except ValueError as e:
     print("Error:", e)
 
 #Task6
-from square_generator import SquareGenerator
+from square_generator.square_generator import SquareGenerator
+
+#Task7
+from square_generator.square_generator import SquareGenerator
