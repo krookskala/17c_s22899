@@ -52,11 +52,6 @@ try:
 except ValueError as e:
     print("Error:", e)
 
-#Task6
+#Task6 & 7
 from square_generator.square_generator import SquareGenerator
 
-#Task7
-from square_generator.square_generator import SquareGenerator
-
-#Task8
-from square_generator.square_generator import CubicGenerator
